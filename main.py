@@ -19,3 +19,22 @@ def main():
     print_students(data)
 
 main()
+
+
+####################################################################################
+
+# Sample Output
+
+# Professor: John Martin
+# Course: Math 1B
+# Student: Jim Smith
+# Student: Mat Lee
+# Student: Gwen O'Rorke
+# Student: Justin Martin
+# Student: Steven Heidel
+# Student: Paulina Marcos
+# Student: Lydia Kajeckas
+# Student: Emmy O'Brien
+# Student: Donna Pershing
+
+####################################################################################
