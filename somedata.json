@@ -7,15 +7,15 @@
     "course_difficulty": "Hard AF!"
   },
   "students": [
-    {"name": "Jim Smith", "Failing": true},
-    {"name": "Mat", "Failing": false},
-    {"name": "Gwen", "Failing": true},
-    {"name": "Justin", "Failing": true},
-    {"name": "Steven", "Failing": false},
-    {"name": "Paulina", "Failing": false},
-    {"name": "Lydia", "Failing": false},
-    {"name": "Emmy", "Failing": true},
-    {"name": "Donna", "Failing": false}
+    {"name": "Jim Smith", "Passing": true},
+    {"name": "Mat Lee", "Passing": false},
+    {"name": "Gwen O'Rorke", "Passing": true},
+    {"name": "Justin Martin", "Passing": true},
+    {"name": "Steven Heidel", "Passing": false},
+    {"name": "Paulina", "Passing": false},
+    {"name": "Lydia Kajeckas", "Passing": true},
+    {"name": "Emmy O'Brien", "Passing": true},
+    {"name": "Donna", "Passing": false}
     ],
     "work": {
       "exams": [
