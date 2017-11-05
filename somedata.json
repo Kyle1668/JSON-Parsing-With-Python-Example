@@ -7,7 +7,7 @@
     "course_difficulty": "Hard AF!"
   },
   "students": [
-    {"name": "Jim", "Failing": true},
+    {"name": "Jim Smith", "Failing": true},
     {"name": "Mat", "Failing": false},
     {"name": "Gwen", "Failing": true},
     {"name": "Justin", "Failing": true},
