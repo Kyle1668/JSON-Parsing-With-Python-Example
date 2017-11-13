@@ -12,7 +12,9 @@ def print_course_info(course_data):
 
 
 def main():
-    with open('somedata.json') as json_file:
+    json_file = 'somedata.json'
+
+    with open(json_file) as json_file:
         data = json.load(json_file)
 
     print_course_info(data["course_info"])
