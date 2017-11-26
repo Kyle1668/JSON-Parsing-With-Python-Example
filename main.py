@@ -5,6 +5,7 @@ def print_students(data):
     for student in data["students"]:
         print("Student: " + student["name"])
 
+
 def print_course_info(data):
     print("Course: " + data["course_name"])
     print("Professor: " + data["professor"])
