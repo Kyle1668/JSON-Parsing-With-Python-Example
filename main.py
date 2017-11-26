@@ -5,10 +5,16 @@ def print_students(data):
     for student in data["students"]:
         print("Student: " + student["name"])
 
+def print_course_info(data):
+    print("Course: " + data["course_name"])
+    print("Professor: " + data["professor"])
 
-def print_course_info(course_data):
-    print("Course: " + course_data["course_name"])
-    print("Professor: " + course_data["professor"])
+
+def print_student(data, student_name):
+    for student in data["students"]:
+        if student.name is student_name:
+            print("Name: " + student_name)
+            print("Passing: " + student.Passing)
 
 
 def main():
