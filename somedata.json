@@ -7,15 +7,15 @@
     "course_difficulty": "Hard AF!"
   },
   "students": [
-    {"id": 2, "name": "Jim Smith", "Passing": true},
-    {"id": 10, "name": "Mat Lee", "Passing": false},
-    {"id": 19, "name": "Gwen O'Rorke", "Passing": true},
-    {"id": 28, "name": "Justin Martin", "Passing": true},
-    {"id": 31, "name": "Steven Heidel", "Passing": false},
-    {"id": 93, "name": "Paulina Marcos", "Passing": false},
-    {"id": 18, "name": "Lydia Kajeckas", "Passing": true},
-    {"id": 6, "name": "Emmy O'Brien", "Passing": true},
-    {"id": 15, "name": "Donna Pershing", "Passing": false}
+    {"id": "2", "name": "Jim Smith", "Passing": true},
+    {"id": "10", "name": "Mat Lee", "Passing": false},
+    {"id": "19", "name": "Gwen O'Rorke", "Passing": true},
+    {"id": "28", "name": "Justin Martin", "Passing": true},
+    {"id": "31", "name": "Steven Heidel", "Passing": false},
+    {"id": "93", "name": "Paulina Marcos", "Passing": false},
+    {"id": "18", "name": "Lydia Kajeckas", "Passing": true},
+    {"id": "6", "name": "Emmy O'Brien", "Passing": true},
+    {"id": "15", "name": "Donna Pershing", "Passing": false}
     ],
     "work": {
       "exams": [

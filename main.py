@@ -13,8 +13,8 @@ def print_course_info(data):
 
 def print_student(data, student_id):
     for student in data["students"]:
-        if student.name is student_id:
-            print("ID: " + student_id)
+        if student["id"] is student_id:
+            print("ID: " + student.id)
             print("Name: " + student.name)
             print("Passing: " + student.Passing)
 
@@ -27,6 +27,8 @@ def main():
 
     print_course_info(data["course_info"])
     print_students(data)
+
+    print_student(data, "31")
 
 main()
 
