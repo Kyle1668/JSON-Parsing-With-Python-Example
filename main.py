@@ -11,10 +11,11 @@ def print_course_info(data):
     print("Professor: " + data["professor"])
 
 
-def print_student(data, student_name):
+def print_student(data, student_id):
     for student in data["students"]:
-        if student.name is student_name:
-            print("Name: " + student_name)
+        if student.name is student_id:
+            print("ID: " + student_id)
+            print("Name: " + student.name)
             print("Passing: " + student.Passing)
 
 
