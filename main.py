@@ -6,17 +6,34 @@ def print_students(data):
         print("Student: " + student["name"])
 
 
-def print_course_info(course_data):
-    print("Course: " + course_data["course_name"])
-    print("Professor: " + course_data["professor"])
+def print_course_info(data):
+    print("Course: " + data["course_name"])
+    print("Professor: " + data["professor"])
+
+
+def print_student(data, student_id):
+    for student in data["students"]:
+        if student["id"] is student_id:
+            print("ID: " + student.id)
+            print("Name: " + student.name)
+            print("Passing: " + student.Passing)
+
+
+def load_json_file(json_file):
+    with open(json_file) as json_file:
+        data = json.load(json_file)
+    return data
 
 
 def main():
-    with open('somedata.json') as json_file:
-        data = json.load(json_file)
+    json_file = "somedata.json"
+
+    data = load_json_file(json_file)
 
     print_course_info(data["course_info"])
     print_students(data)
+
+    print_student(data, "31")
 
 main()
 

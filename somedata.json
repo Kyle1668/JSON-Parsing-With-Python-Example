@@ -1,21 +1,21 @@
 {
   "course_info": {
-    "course_name": "Math 1B",
-    "professor": "John Martin",
+    "course_name": "Math 1B: Calculus For Dummies",
+    "professor": "Napoleon Washington",
     "professor_middle_name": null,
     "course_units": "5",
-    "course_difficulty": "Hard AF!"
+    "course_difficulty": "easy peasy lemon squeezy"
   },
   "students": [
-    {"name": "Jim Smith", "Passing": true},
-    {"name": "Mat Lee", "Passing": false},
-    {"name": "Gwen O'Rorke", "Passing": true},
-    {"name": "Justin Martin", "Passing": true},
-    {"name": "Steven Heidel", "Passing": false},
-    {"name": "Paulina Marcos", "Passing": false},
-    {"name": "Lydia Kajeckas", "Passing": true},
-    {"name": "Emmy O'Brien", "Passing": true},
-    {"name": "Donna Pershing", "Passing": false}
+    {"id": "2", "name": "Jim Smith", "Passing": true},
+    {"id": "10", "name": "Mat Lee", "Passing": false},
+    {"id": "19", "name": "Gwen O'Rorke", "Passing": true},
+    {"id": "28", "name": "Justin Martin", "Passing": true},
+    {"id": "31", "name": "Steven Heidel", "Passing": false},
+    {"id": "93", "name": "Paulina Marcos", "Passing": false},
+    {"id": "18", "name": "Lydia Kajeckas", "Passing": true},
+    {"id": "6", "name": "Emmy O'Brien", "Passing": true},
+    {"id": "15", "name": "Donna Pershing", "Passing": false}
     ],
     "work": {
       "exams": [
