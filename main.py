@@ -19,11 +19,16 @@ def print_student(data, student_id):
             print("Passing: " + student.Passing)
 
 
-def main():
-    json_file = 'somedata.json'
-
+def load_json_file(json_file):
     with open(json_file) as json_file:
         data = json.load(json_file)
+    return data
+
+
+def main():
+    json_file = "somedata.json"
+
+    data = load_json_file(json_file)
 
     print_course_info(data["course_info"])
     print_students(data)
