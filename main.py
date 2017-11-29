@@ -1,5 +1,6 @@
 import json
 
+# Notice how you can access each element from the json data using brackets and the property name.
 
 def print_students(data):
     for student in data["students"]:
